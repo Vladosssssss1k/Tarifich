@@ -1,0 +1,350 @@
+body{
+    background-color: #FAF9F7;
+    font-family: 'Neue Montreal',sans-serif;
+    padding: 0px;
+    margin: 0px 46px;
+}
+
+/*colors
+#BBDF57-Accent color
+#FAF9F7-Background-color
+#000000-Font color
+*/
+
+/*This is code for preview component*/
+.preview_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.preview_Block{
+    border: 2px solid black;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+.preview_Block span{
+    text-align: center;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+.btnStyle{
+    background-color: transparent;
+    border: 2px solid black;
+    font-weight: 600;
+    font-size: 19px;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+    color: black;
+}
+.btnStyle:hover{
+    background-color: black;
+    color: #FAF9F7;
+    transition: all .3s ease-in-out 0s;
+}
+
+/*This code for auth component*/
+.auth_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.auth_Block{
+    border: 2px solid black;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+.auth_Block form{
+    display: flex;
+    flex-direction: column;
+}
+.header{
+    text-align: center;
+    font-size: 25px;
+}
+.fieldsForm{
+    border: none;
+    border-bottom:2px solid black;
+    margin-bottom: 10px;
+}
+.fieldsForm:focus{
+    outline: none;
+}
+.linksForm{
+    text-decoration: none;
+    text-align: center;
+    color: #BBDF57;
+}
+
+/*This code for singUp component*/
+.signUp_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.signUp_Block{
+    border: 2px solid black;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+.signUp_Block form{
+    display: flex;
+    flex-direction: column;
+}
+/*This code for home component*/
+.home_container{
+    height: 100vh;
+    margin: 0px 20px;
+}
+.home_Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.home_Header span{
+    font-size: 25px;
+    font-weight: 500;
+}
+.menu_Header{
+    display: flex;
+    column-gap: 30px;
+    align-items: center;
+}
+.linksHeader{
+    text-decoration: none;
+    color: black;
+}
+.linksHeader:hover,.btnAccount:hover{
+    color: #BBDF57;
+    transition: all 0.3s ease-in-out 0s;
+}
+.account_Header{
+    display: flex;
+    align-items: center;
+    column-gap: 25px;
+}
+.account_Header img{
+    height: 45px;
+    width: 45px;
+    border-radius: 360px;
+}
+.btnAccount{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-weight: 500;
+}
+.home_Block{
+    border: 2px solid black;
+    height: 88vh; 
+    display: flex;
+}
+.home_Balance,.home_Tariff,.home_Assistant{
+    display: flex;
+    width: 464px;
+}
+.home_Balance{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+    align-items: center;
+    border:2px solid #BBDF57;
+}
+.home_Balance hr{
+    width: 350px;
+}
+
+
+/*This is code for account component*/
+.account_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.account_Block{
+    border: 2px solid black;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+.account_Head{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.account_Head img{
+    height: 125px;
+    width: 125px;
+    border-radius: 360px;
+}
+.accBtn{
+    text-decoration: none;
+    background-color: transparent;
+    border: none;
+    margin-top: -90px;
+}
+.account_Settings{
+    margin-top: 35px;
+    display: flex;
+    flex-direction: column;
+}
+.options{
+    display: flex;
+    justify-content: space-between;
+    column-gap: 65px;
+}
+.options input{
+    border: none;
+    border-bottom: 1px solid black;
+}
+
+
+/*This code for messenger component*/
+.messenger_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.messenger_Block{
+    border: 2px solid black;
+    padding: 59px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    height: 65vh;
+    width: 65vh;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+.messenger_Head{
+    display: flex;
+    flex-direction: column;
+    padding: 45px;
+}
+.messenger_Enter{
+    display: flex;
+}
+.messenger_Enter textarea{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    /* resize: none; */
+}
+.messenger_Enter button{
+    position: relative;
+    z-index: 2;
+}
+
+
+/*This is code for tariffs component*/
+.tariffs_container{
+    height: 100vh;
+    margin: 0px 20px;
+}
+.tariffs_Block{
+    border: 2px solid black;
+    height: 88vh; 
+    display: flex;
+    flex-direction: column;
+}
+.tariffs_Block span{
+    padding: 15px;
+    font-size: 25px;
+    font-weight: 500;
+}
+.tariffs_list{
+    display: flex;
+}
+.tariff_Item{
+    border: 2px solid black;
+    position: relative;
+    transition: all 1s ease-in-out 0s;
+    transform-style: preserve-3d;
+}
+.tariff_Item:nth-last-child(1){
+    margin-left: 15px;
+}
+.tariff_Item:hover{
+    transform: rotateY(-180deg);
+}
+.front_item,.back_item{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.front_item{
+    backface-visibility: hidden;
+}
+.front_item img{
+    height: 350px;
+    width: 300px;
+}
+.front_item span{
+    padding: 15px;
+    font-size: 20px;
+    font-weight: 500;
+    text-align: center;
+}
+/*This is code for sim-card component */
+.simcard_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.simcard_Block{
+    border: 2px solid black;
+    padding: 19px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    -webkit-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    -moz-box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+    box-shadow: 0px 0px 40px 27px rgba(187, 223, 87, 0.3);
+}
+
+.countryItem{
+    width: 60vh;
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+    column-gap: 25px;
+    margin-bottom: 15px;
+}
+.countryItem:last-child{
+    margin-bottom: 0;
+}
+.countryItem img{
+    width: 63px;
+    height: 43px;
+}
+.countryItem span{
+    font-size: 20px;
+}
